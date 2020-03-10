@@ -67,14 +67,14 @@ render() {
           <div className="container">
             <Route exact path="/" render={props => (
               <Home {...props} shoppings={this.state.shoppings}/>)}/>
-            <Route exact path="/shop" component={Shop} />
-            <Route exact path="/contact" component={Contact} />
-            <Route exact path="/sign-in" component={SignIn} />
-            <Route exact path="/cart" component={Cart} />
-            <Route exact path="/shoes" component={Shoes} />
-            <Route exact path="/jacket" component={Jacket} />
-            <Route exact path="/pants" component={Pants} />
-            <Route exact path="/shirt" component={Shirt} />
+            <Route path="/shop" component={Shop} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/sign-in" component={SignIn} />
+            <Route path="/cart" component={Cart} />
+            <Route path="/shoes" component={Shoes} />
+            <Route path="/jacket" component={Jacket} />
+            <Route path="/pants" component={Pants} />
+            <Route path="/shirt" component={Shirt} />
           </div>
         </Switch>
       </Router>
