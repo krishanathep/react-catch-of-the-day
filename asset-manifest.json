@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-catch-of-the-day/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/react-catch-of-the-day/static/js/main.ca62a0d6.chunk.js",
+    "main.js.map": "/react-catch-of-the-day/static/js/main.ca62a0d6.chunk.js.map",
+    "runtime-main.js": "/react-catch-of-the-day/static/js/runtime-main.5f60858c.js",
+    "runtime-main.js.map": "/react-catch-of-the-day/static/js/runtime-main.5f60858c.js.map",
+    "static/css/2.de424728.chunk.css": "/react-catch-of-the-day/static/css/2.de424728.chunk.css",
+    "static/js/2.75eeb660.chunk.js": "/react-catch-of-the-day/static/js/2.75eeb660.chunk.js",
+    "static/js/2.75eeb660.chunk.js.map": "/react-catch-of-the-day/static/js/2.75eeb660.chunk.js.map",
+    "index.html": "/react-catch-of-the-day/index.html",
+    "precache-manifest.e7a8fe6425085c9c53da513905e5b2f0.js": "/react-catch-of-the-day/precache-manifest.e7a8fe6425085c9c53da513905e5b2f0.js",
+    "service-worker.js": "/react-catch-of-the-day/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/react-catch-of-the-day/static/css/2.de424728.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/react-catch-of-the-day/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.75eeb660.chunk.js.LICENSE.txt": "/react-catch-of-the-day/static/js/2.75eeb660.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f60858c.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.75eeb660.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.ca62a0d6.chunk.js"
+  ]
+}
