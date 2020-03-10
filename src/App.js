@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 import Shop from './components/shop/Shop'
 import Contact from './components/contact/Contact'
 import SignIn from './components/signin/SignIn'
@@ -61,7 +61,7 @@ export class App extends Component {
 render() {
   return (
     <div className="App">
-      <Router>
+      <HashRouter basename='/'>
         <Navbar/>
         <Switch>
           <div className="container">
@@ -77,7 +77,7 @@ render() {
             <Route path="/shirt" component={Shirt} />
           </div>
         </Switch>
-      </Router>
+      </HashRouter>
     </div>  
     );
   }
