@@ -21,11 +21,6 @@ export class Navbar extends Component {
             >
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                  <Link to="/" className="nav-link">
-                    HOME
-                  </Link>
-                </li>
-                <li className="nav-item">
                   <Link to="/shop" className="nav-link">
                     SHOP
                   </Link>
