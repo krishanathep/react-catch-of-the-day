@@ -6,7 +6,6 @@ export class Navbar extends Component {
     return (
       <div className="Navbar">
         <nav className="navbar navbar-expand-sm bg-primary navbar-dark">
-          <div className="container">
             <Link to="/" className="navbar-brand">
             <i class="fas fa-crown"></i> &nbsp;SHOPPING CART
             </Link>
@@ -44,7 +43,6 @@ export class Navbar extends Component {
                 </li>
               </ul>
             </div>
-          </div>
         </nav>
       </div>
     );
