@@ -4,7 +4,7 @@ export class Contact extends Component {
     render() {
         return (
             <div>
-                <h1 align="center">Contact</h1>
+                <h1 className="text-uppercase" align="center">Contact</h1>
             </div>
         )
     }

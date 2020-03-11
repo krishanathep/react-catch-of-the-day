@@ -8,7 +8,7 @@ export class Navbar extends Component {
         <nav className="navbar navbar-expand-sm bg-primary navbar-dark">
           <div className="container">
             <Link to="/" className="navbar-brand">
-              <i class="fas fa-frog"></i> &nbsp;SHOPPING CART
+            <i class="fas fa-crown"></i> &nbsp;SHOPPING CART
             </Link>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,7 @@ export class Navbar extends Component {
                 </li>
                 <li className="nav-item">
                   <Link to="/sign-in" className="nav-link">
-                    SIGNIN
+                    SIGN IN
                   </Link>
                 </li>
                 <li className="nav-item">
