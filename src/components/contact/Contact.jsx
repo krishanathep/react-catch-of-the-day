@@ -6,20 +6,11 @@ export class Contact extends Component {
             <div>
                 <h1 className="text-uppercase mt-3" align="center">Contact</h1>
                 <div className="row">
-                    <div className="col-md-12">
+                    <div className="col-md-12 mt-3">
                         <h4 align="center">We can't solve your problem if you don't tell us about it!</h4>
                     </div>
-                    <div className="col-md-6">
-                        <div className="card mt-3 border-0">
-                            <div className="card-body">
-                                <h5 className="card-title text-center"><i class="fas fa-map-marker-alt"></i> Bangkok, Thailand</h5>
-                                <h5 className="card-title text-center"><i class="fas fa-phone"></i> 087-3243-929</h5>
-                                <h5 className="card-title text-center"><i class="far fa-envelope"></i> krishanathep@gmail.com</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-6">
-                        <div className="card mt-3">
+                    <div className="col-md-6 offset-md-3">
+                        <div className="card mt-5">
                             <div className="card-body">
                                <form>
                                    <div className="form-group">
