@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { auth } from '../../firebase'
 
-export class Navbar extends Component {
-  render() {
+const Navbar = ({ currentUser }) => {
     return (
       <div className="Navbar">
         <nav className="navbar navbar-expand-sm bg-primary navbar-dark fixed-top">
@@ -30,6 +30,14 @@ export class Navbar extends Component {
                   </Link>
                 </li>
                 <li className="nav-item">
+                  { 
+                  currentUser ? 
+                  <Link onClick={() => auth.signOut()}>SIGN OUT</Link> 
+                  : 
+                  <Link className='nav-item' to='/signin'></Link> 
+                  }
+                </li>
+                <li className="nav-item">
                   <Link to="/sign-in" className="nav-link">
                     SIGN IN
                   </Link>
@@ -47,6 +55,5 @@ export class Navbar extends Component {
       </div>
     );
   }
-}
 
 export default Navbar;

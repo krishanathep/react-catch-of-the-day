@@ -12,12 +12,14 @@ import Jacket from "./components/collection/Jacket";
 import Pants from "./components/collection/Pants";
 import Shirt from "./components/collection/Shirt";
 import Footer from "./components/layouts/Footer";
+import { auth } from './firebase'
 
 export class App extends Component {
   constructor() {
     super();
 
     this.state = {
+      currentUser: null,
       contact: 'https://firebasestorage.googleapis.com/v0/b/swiftfirebase-3e9bf.appspot.com/o/my-office.png?alt=media&token=02f3e861-3342-4519-ad4a-a066802e5e9f',
       shoppings: [
         {
@@ -172,11 +174,25 @@ export class App extends Component {
     };
   }
 
+  unsubscribeFromAuth = null;
+
+  componentDidMount() {
+    this.unsubscribeFromAuth = auth.onAuthStateChanged(user => {
+      this.setState({ currentUser: user })
+
+      console.log(user)
+    })
+  }
+
+  componentWillUnmount() {
+    this.unsubscribeFromAuth()
+  }
+
   render() {
     return (
       <div className="App">
         <HashRouter basename="/">
-          <Navbar />
+          <Navbar currentUser={this.state.currentUser} />
           <Switch>
             <div className="container">
               <Route
