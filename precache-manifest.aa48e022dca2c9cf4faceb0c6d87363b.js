@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "75fbda90af77bf24ec9b9b5e0bf38378",
+    "revision": "65ac8db69bd0725ae35ddd3b156f28b0",
     "url": "/react-catch-of-the-day/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-catch-of-the-day/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "5a5f6a3a6ebfa2e43894",
+    "revision": "d7b6527ac80056c138e1",
     "url": "/react-catch-of-the-day/static/css/main.de3bd6c5.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-catch-of-the-day/static/js/2.2b454416.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5a5f6a3a6ebfa2e43894",
-    "url": "/react-catch-of-the-day/static/js/main.901c483b.chunk.js"
+    "revision": "d7b6527ac80056c138e1",
+    "url": "/react-catch-of-the-day/static/js/main.aaa32dc5.chunk.js"
   },
   {
     "revision": "98a4f7e202235c4b5565",

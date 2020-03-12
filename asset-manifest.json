@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-catch-of-the-day/static/css/main.de3bd6c5.chunk.css",
-    "main.js": "/react-catch-of-the-day/static/js/main.901c483b.chunk.js",
-    "main.js.map": "/react-catch-of-the-day/static/js/main.901c483b.chunk.js.map",
+    "main.js": "/react-catch-of-the-day/static/js/main.aaa32dc5.chunk.js",
+    "main.js.map": "/react-catch-of-the-day/static/js/main.aaa32dc5.chunk.js.map",
     "runtime-main.js": "/react-catch-of-the-day/static/js/runtime-main.5f60858c.js",
     "runtime-main.js.map": "/react-catch-of-the-day/static/js/runtime-main.5f60858c.js.map",
     "static/css/2.de424728.chunk.css": "/react-catch-of-the-day/static/css/2.de424728.chunk.css",
     "static/js/2.2b454416.chunk.js": "/react-catch-of-the-day/static/js/2.2b454416.chunk.js",
     "static/js/2.2b454416.chunk.js.map": "/react-catch-of-the-day/static/js/2.2b454416.chunk.js.map",
     "index.html": "/react-catch-of-the-day/index.html",
-    "precache-manifest.21140a7b4d13cb4e03855faef9939878.js": "/react-catch-of-the-day/precache-manifest.21140a7b4d13cb4e03855faef9939878.js",
+    "precache-manifest.aa48e022dca2c9cf4faceb0c6d87363b.js": "/react-catch-of-the-day/precache-manifest.aa48e022dca2c9cf4faceb0c6d87363b.js",
     "service-worker.js": "/react-catch-of-the-day/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/react-catch-of-the-day/static/css/2.de424728.chunk.css.map",
     "static/css/main.de3bd6c5.chunk.css.map": "/react-catch-of-the-day/static/css/main.de3bd6c5.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.de424728.chunk.css",
     "static/js/2.2b454416.chunk.js",
     "static/css/main.de3bd6c5.chunk.css",
-    "static/js/main.901c483b.chunk.js"
+    "static/js/main.aaa32dc5.chunk.js"
   ]
 }
