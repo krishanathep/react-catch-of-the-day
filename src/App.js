@@ -18,6 +18,7 @@ export class App extends Component {
     super();
 
     this.state = {
+      contact: 'https://firebasestorage.googleapis.com/v0/b/swiftfirebase-3e9bf.appspot.com/o/my-office.png?alt=media&token=02f3e861-3342-4519-ad4a-a066802e5e9f',
       shoppings: [
         {
           id: 1,
@@ -127,7 +128,7 @@ export class App extends Component {
           id: 2,
           title: 'Red Pant',
           price: 5000,
-          img: 'https://images.pexels.com/photos/3253613/pexels-photo-3253613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+          img: 'https://images.pexels.com/photos/2865977/pexels-photo-2865977.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
         },
         {
           id: 3,
@@ -139,7 +140,7 @@ export class App extends Component {
           id: 4,
           title: 'Black Pant',
           price: 3500,
-          img: 'https://images.pexels.com/photos/3429270/pexels-photo-3429270.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+          img: 'https://images.pexels.com/photos/3756030/pexels-photo-3756030.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
         }
       ],
       shoes: [
@@ -186,7 +187,11 @@ export class App extends Component {
                 )}
               />
               <Route path="/shop" component={Shop} />
-              <Route path="/contact" component={Contact} />
+              <Route 
+                path="/contact"
+                render={props => (
+                  <Contact {...props} contact={this.state.contact} />
+                )}/>
               <Route path="/sign-in" component={SignIn} />
               <Route path="/cart" component={Cart} />
               <Route 

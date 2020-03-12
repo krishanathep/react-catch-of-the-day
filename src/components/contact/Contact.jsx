@@ -15,7 +15,7 @@ export class Contact extends Component {
           </div>
           <div className="col-md-6">
               <div className="card mt-3">
-                  <img className="img-thumbnail" src="https://firebasestorage.googleapis.com/v0/b/swiftfirebase-3e9bf.appspot.com/o/my-office.png?alt=media&token=02f3e861-3342-4519-ad4a-a066802e5e9f" alt=""/>
+                  <img className="img-thumbnail" src={process.env.PUBLIC_URL + '/images/map.png'} alt=""/>
               </div>
           </div>
           <div className="col-md-6">

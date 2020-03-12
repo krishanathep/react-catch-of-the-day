@@ -82,7 +82,7 @@ export class Shop extends Component {
           title: "Red Pant",
           price: 5000,
           img:
-            "https://images.pexels.com/photos/3253613/pexels-photo-3253613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            "https://images.pexels.com/photos/2865977/pexels-photo-2865977.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
         },
         {
           id: 3,
@@ -96,7 +96,7 @@ export class Shop extends Component {
           title: "Black Pant",
           price: 3500,
           img:
-            "https://images.pexels.com/photos/3429270/pexels-photo-3429270.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            "https://images.pexels.com/photos/3756030/pexels-photo-3756030.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
         }
       ],
       shoes: [

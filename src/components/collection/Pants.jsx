@@ -9,7 +9,7 @@ export class Pants extends Component {
                     {this.props.pants.map(pant => (
                     <div className="col-md-3 col-6">
                         <div className="card mt-3" key={pant.id} {...pant}>
-                            <img className="card-img-top" src={pant.img} alt="" height="350px"/>
+                            <img className="card-img-top" src={pant.img} alt=""/>
                             <div className="card-body">
                                 <h4 className="card-title">
                                     {pant.title}
