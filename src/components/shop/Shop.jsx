@@ -134,8 +134,8 @@ export class Shop extends Component {
 
   render() {
     return (
-      <div>
-        <h1 align="center" className="text-uppercase mt-3">
+      <div className="Shop">
+        <h1 align="center" className="text-uppercase">
           Collections
         </h1>
         <Shirt shirts={this.state.shirts} />

@@ -11,6 +11,7 @@ import Shoes from "./components/collection/Shoes";
 import Jacket from "./components/collection/Jacket";
 import Pants from "./components/collection/Pants";
 import Shirt from "./components/collection/Shirt";
+import Footer from "./components/layouts/Footer";
 
 export class App extends Component {
   constructor() {
@@ -25,7 +26,8 @@ export class App extends Component {
             "Some quick example text to build on the card title and make up the bulk of the card s content",
           url:
             "https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-          link: "/shoes"
+          link: "/shoes",
+          date: '12-03-2020'
         },
         {
           id: 2,
@@ -34,7 +36,8 @@ export class App extends Component {
             "Some quick example text to build on the card title and make up the bulk of the card s content",
           url:
             "https://images.pexels.com/photos/1036856/pexels-photo-1036856.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-          link: "/jacket"
+          link: "/jacket",
+          date: '10-03-2020'
         },
         {
           id: 3,
@@ -43,7 +46,8 @@ export class App extends Component {
             "Some quick example text to build on the card title and make up the bulk of the card s content",
           url:
             "https://images.pexels.com/photos/2842118/pexels-photo-2842118.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-          link: "/pants"
+          link: "/pants",
+          date: '05-03-2020'
         },
         {
           id: 4,
@@ -52,7 +56,8 @@ export class App extends Component {
             "Some quick example text to build on the card title and make up the bulk of the card s content",
           url:
             "https://images.pexels.com/photos/2294342/pexels-photo-2294342.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-          link: "/shirt"
+          link: "/shirt",
+          date: '09-03-2020'
         }
       ],
       shirts: [
@@ -207,6 +212,7 @@ export class App extends Component {
               />
             </div>
           </Switch>
+          <Footer/>
         </HashRouter>
       </div>
     );

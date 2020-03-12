@@ -4,7 +4,7 @@ export class SignIn extends Component {
     render() {
         return (
             <div>
-                <h1 className="text-uppercase mt-3" align="center">Sign In</h1>
+                <h1 className="text-uppercase" align="center">Sign In</h1>
                 <div className="row">
                     <div className="col-md-6">
                         <div className="card mt-3">

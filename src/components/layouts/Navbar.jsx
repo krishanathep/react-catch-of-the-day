@@ -5,7 +5,7 @@ export class Navbar extends Component {
   render() {
     return (
       <div className="Navbar">
-        <nav className="navbar navbar-expand-sm bg-primary navbar-dark">
+        <nav className="navbar navbar-expand-sm bg-primary navbar-dark fixed-top">
             <Link to="/" className="navbar-brand">
             <i class="fas fa-crown"></i> &nbsp;SHOPPING CART
             </Link>
