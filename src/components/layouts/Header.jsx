@@ -11,7 +11,7 @@ export class Header extends Component {
               <li data-target="#demo" data-slide-to="1"></li>
               <li data-target="#demo" data-slide-to="2"></li>
             </ul>
-
+          <div className="carousel-inner">
             <div class="carousel-item active">
               <img
                 src="https://images.pexels.com/photos/298864/pexels-photo-298864.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -23,8 +23,7 @@ export class Header extends Component {
                 <h3>Shopping Cart</h3>
                 <p>We had such a great time in Shopping Cart!</p>
               </div>
-            </div>
-            <div className="carousel-inner">
+            </div>  
               <div className="carousel-item">
                 <img
                   src="https://images.pexels.com/photos/264726/pexels-photo-264726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

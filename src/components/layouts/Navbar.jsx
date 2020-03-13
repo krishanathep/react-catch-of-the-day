@@ -7,11 +7,11 @@ const Navbar = ({ currentUser }) => {
       <div className="Navbar">
         <nav className="navbar navbar-expand-sm bg-primary navbar-dark fixed-top">
             <Link to="/" className="navbar-brand">
-            <i class="fas fa-crown"></i> &nbsp;SHOPPING CART
+            <i className="fas fa-crown"></i> &nbsp;SHOPPING CART
             </Link>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
             </button>
             
             <div
@@ -30,22 +30,15 @@ const Navbar = ({ currentUser }) => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  { 
-                  currentUser ? 
-                  <Link onClick={() => auth.signOut()}>SIGN OUT</Link> 
-                  : 
-                  <Link className='nav-item' to='/signin'></Link> 
+                  { currentUser ? (
+                    <a href="#" className='nav-link' onClick={() => auth.signOut()}>SIGN OUT</a>):( 
+                    <Link className='nav-link' to='/sign-in'>SIGN IN</Link>)
                   }
-                </li>
-                <li className="nav-item">
-                  <Link to="/sign-in" className="nav-link">
-                    SIGN IN
-                  </Link>
                 </li>
                 <li className="nav-item">
                   <Link to="/cart" className="nav-link">
                     <i className="fas fa-shopping-cart">
-                      <span class="badge badge-pill badge-danger">0</span>
+                      <span className="badge badge-pill badge-danger">99</span>
                     </i>
                   </Link>
                 </li>
