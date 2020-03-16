@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { signInWithGoogle } from "../../firebase";
+import Signup from "./Signup";
 
 export class SignIn extends Component {
   constructor() {
@@ -80,56 +81,7 @@ export class SignIn extends Component {
             </div>
           </div>
           <div className="col-md-6">
-            <div className="card mt-3">
-              <div className="card-body">
-                <h3 className="card-title">I do not have a account</h3>
-                <p className="card-text">
-                  Sign up with your email and password
-                </p>
-                <form>
-                  <div className="form-group">
-                    <div className="label">Display Name</div>
-                    <input
-                      type="text"
-                      className="form-control"
-                      placeholder="Display Name..."
-                    />
-                  </div>
-                  <div className="form-group">
-                    <div className="label">Email</div>
-                    <input
-                      type="text"
-                      className="form-control"
-                      placeholder="Email..."
-                    />
-                  </div>
-                  <div className="form-group">
-                    <div className="label">Password</div>
-                    <input
-                      type="password"
-                      className="form-control"
-                      placeholder="Password..."
-                    />
-                  </div>
-                  <div className="form-group">
-                    <div className="label">Confirm Password</div>
-                    <input
-                      type="password"
-                      className="form-control"
-                      placeholder="Confirm Password..."
-                    />
-                  </div>
-                  <div>
-                    <button
-                      type="submit"
-                      className="btn btn-primary btn-block"
-                    >
-                        <i class="far fa-envelope"></i> SIGN UP WITH EMAIL
-                    </button>
-                  </div>
-                </form>
-              </div>
-            </div>
+            <Signup />
           </div>
         </div>
       </div>

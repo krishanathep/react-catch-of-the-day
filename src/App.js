@@ -12,7 +12,7 @@ import Jacket from "./components/collection/Jacket";
 import Pants from "./components/collection/Pants";
 import Shirt from "./components/collection/Shirt";
 import Footer from "./components/layouts/Footer";
-import { auth } from './firebase'
+import { auth, createUserProfileDocument } from './firebase'
 
 export class App extends Component {
   constructor() {
@@ -177,10 +177,21 @@ export class App extends Component {
   unsubscribeFromAuth = null;
 
   componentDidMount() {
-    this.unsubscribeFromAuth = auth.onAuthStateChanged(user => {
-      this.setState({ currentUser: user })
+    this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
+      if (userAuth) {
+        const userRef = await createUserProfileDocument(userAuth)
 
-      console.log(user)
+        userRef.onSnapshot(snapShot => {
+          this.setState({
+            currentUser: {
+              id: snapShot.id,
+              ...snapShot.data()
+            }
+          })
+        })
+      }
+
+      this.setState({ currentUser: userAuth })
     })
   }
 

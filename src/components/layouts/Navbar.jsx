@@ -31,7 +31,7 @@ const Navbar = ({ currentUser }) => {
                 </li>
                 <li className="nav-item">
                   { currentUser ? (
-                    <a href="#" className='nav-link' onClick={() => auth.signOut()}>SIGN OUT</a>):( 
+                    <Link className='nav-link' onClick={() => auth.signOut()}>SIGN OUT</Link>):( 
                     <Link className='nav-link' to='/sign-in'>SIGN IN</Link>)
                   }
                 </li>
